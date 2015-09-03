@@ -37,6 +37,6 @@ all_users.each do |current_user|
 end
 
 list = comment_pages
-userlist = grab_users(list)
+all_users = grab_users(list)
 
 catch_him(all_users)
